@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+9/23/19
 
 ### Project Title
-Replace the Project Title
+Udacity Programming For Data Science - Version Control
 
 ### Description
-Describe what your project is about and what it does
+The python scripts offers an interactive experience to users to view bikeshare data from Chicago,
+Washington and New York City based on a selected timeframe.  It will also offer user the option
+to view personal data.
 
 ### Files used
-Include the files used
+washington.csv
+chicago.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
