@@ -16,14 +16,20 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
     Returns:
+<<<<<<< HEAD
         (str) city - name of the city to analyze (washington, new york city or chicago
+||||||| merged common ancestors
+        (str) city - name of the city to analyze
+=======
+        (str) city - name of the city to analyze, washington, chicago, new_york_city
+>>>>>>> refactoring
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 
     print('\nHello! Let\'s explore some US bikeshare data!')
 
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # TO DO: get user input for city (chicago, new york city, washington).
 
     while True:
         city = input("Which city would you like to filter by? New York City, Chicago or Washington?\n").lower()
@@ -66,7 +72,7 @@ def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
     Args:
-        (str) city - name of the city to analyze
+        (str) city - name of the city to analyze washington, chicago, new_york_city
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
@@ -259,4 +265,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+#Project completion in 2 weeks
