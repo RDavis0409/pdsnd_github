@@ -6,8 +6,8 @@ Udacity Programming For Data Science - Version Control
 
 ### Description
 The python script offers an interactive experience to users to view bikeshare data from Chicago,
-Washington and New York City based on a selected timeframe.  It will also offer user the option
-to view personal data based on 5 sorted lines per user's affirmative response.
+Washington and New York City based on a selected timeframe.  Users are able to select monthly and 
+weekday timeframes and then are able to review personal data based on 5 rows at the time.
 
 ### Files used
 washington.csv
